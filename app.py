@@ -7,7 +7,7 @@ st.title("Especializacion Python for Analytics")
 st.sidebar.title("Parametros")
 st.write ("Elaborado por: Julio Solis")
 
-modulos = st.sidebar.selectbox("Seleccione un módulo",["Módulo Listas","Módulo Arreglo";"Módulo Funciones"])
+modulos = st.sidebar.selectbox("Seleccione un módulo",["Módulo Listas","Módulo Arreglo","Módulo Funciones"])
 
 if modulos == "Modulos Listas":
   st.write = ("Bienvenido al Módulo Listas")
